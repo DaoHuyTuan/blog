@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0px;
+    padding-top:200px;
+    padding-left: 200px;
+
+}
+.main  {
+
+    width:800px;
+
+}
+.item {
+    width:200px;
+    display: block;
+    float: left;
+}
+
+.red {
+    background-color:red;
+}
+.green {
+    background-color:green;
+}
+.yellow {
+    background-color:yellow;
+}
+.blue {
+    background-color:blue;
+}
