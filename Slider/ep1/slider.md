@@ -216,6 +216,7 @@ function checkPosition(newValue) {
     // hình dưới đây sẽ giãi thích vì sao cần remove transition
 ```
     
+
 ```js
     if(currentPosition == widthItem) {
         console.log(currentPosition)
@@ -239,7 +240,6 @@ function checkPosition(newValue) {
 ```
 
 **Final**
-
 Kết hợp 2 hàm if trên ta sẽ có được slider loop infinity
 
 
