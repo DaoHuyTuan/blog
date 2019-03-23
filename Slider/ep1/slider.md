@@ -1,4 +1,4 @@
-##Series: Tạo độ khó: Carousel
+## Series: Tạo độ khó: Carousel
 
 Hẳn với rất nhiều bác ở đây làm web dev cũng đều biết đến Carousel, hay có tên gọi khác như slidershow. Nhưng có mấy người thật sự hiểu cách hoạt động của carousel ??
 Bài viết này gồm 2 phần tương đương với 2 cách implement carousel thông dụng nhất 
@@ -7,10 +7,10 @@ Bài viết này gồm 2 phần tương đương với 2 cách implement carouse
 - **Cách Bootstrap làm carousel** (cách mà vài thư viện css đình đám hay sử dụng vd: bootstrap,foundation)
 
 
-##Clone Element
-##1. Demo 
+## Clone Element
+## 1. Demo 
 ![Image of Slider](https://media.giphy.com/media/2dlm0ZA53Tv9necMcy/giphy.gif)
-##2. Setup project
+## 2. Setup project
 
 **HTML**
 ```html
@@ -142,8 +142,8 @@ style.css
 - Ta cần làm phần loop ta sẽ dùng clone elements cho hiệu ứng này 
 > ta sẽ giãi quyết từng case nêu trên
 
-##4. Get Thing Done 
-####**Clone Elements**
+## 4. Get Thing Done 
+#### **Clone Elements**
 
 ```js 
 const createClone = function genClone() {
@@ -165,7 +165,7 @@ Và đây là cây dom sau khi gọi ``createClone`` khi inspect console
 
 ![Dom after gen](https://media.giphy.com/media/LZkOAlPD7PmkPHzuuC/giphy.gif)
 
-####**Slide Effect**
+#### **Slide Effect**
 
 ```js
 function nextSlider(){
@@ -188,9 +188,9 @@ function checkPosition(newValue) {
 }
 ```
 
-#####**Loop**
+##### **Loop**
 Điểm này rất quan trọng mọi logic của slide ở đây  
-**1. Next slide**
+** 1. Next slide**
 ```js
 function checkPosition(newValue) {
     distantSlide = "translate("+ (currentPosition) + "px)";
@@ -249,7 +249,7 @@ Kết hợp 2 hàm if trên ta sẽ có được slider loop infinity
 Cái nhìn bao quát nhất:
 ![total](https://media.giphy.com/media/CjVah1zZ1qUHZBuro7/giphy.gif);
 
-##5. Góc câu like
+## 5. Góc câu like
 
 - Gạch đá thoải mái, càng ném tác giả càng ra phần 2 nhanh hơn =))), Nhưng xin phép không bàn về "nhân phẩm" của tác giả =)))
 - Bằng 1 cách có 1 0 2 tác giả đã tự tạo độ khó cho mình bằng cách viết ra bài chia sẽ này =)).
