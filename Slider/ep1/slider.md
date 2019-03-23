@@ -134,7 +134,7 @@ style.css
     background-color:pink;
 }
 ```
-##3. Cách thức hoạt động 
+## 3. Cách thức hoạt động 
 - Tạo các clone element 1 cách tự động vì không thể nào người dùng phải tự gõ để tạo ra clone elements
 - Sẽ phải có sự kiện khi click vào các arrow để thực hiện translate
 - Chúng ta sẽ có 3 slide item để làm hiệu ứng slide ta sẽ dùng ``transform:translateX()`` + ``transition:0.5s``
