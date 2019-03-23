@@ -190,7 +190,7 @@ function checkPosition(newValue) {
 
 ##### **Loop**
 Điểm này rất quan trọng mọi logic của slide ở đây  
-** 1. Next slide**
+**1. Next slide**
 ```js
 function checkPosition(newValue) {
     distantSlide = "translate("+ (currentPosition) + "px)";
